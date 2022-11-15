@@ -42,12 +42,23 @@ buttonRock.onclick = e => {
 buttonPunk.onclick = e => {
     if (listPunk.textContent === "PUNK") {
         listPunk.textContent = "RAMONES"
+        listPunk.style.background = "Black"
+        listPunk.style.color = "White"
     } else if (listPunk.textContent === "RAMONES") {
         listPunk.textContent = "THE CLASH"
+        listPunk.style.background = "White"
+        listPunk.style.color = "Red"
     } else if (listPunk.textContent === "THE CLASH") {
         listPunk.textContent = "NOFX"
+        listPunk.style.background = "Black"
+        listPunk.style.color = "Green"
+        listPunk.style.fontSize = "30px"
     } else if (listPunk.textContent === "NOFX") {
         listPunk.textContent = "PUNK"
+        listPunk.style.background = "White"
+        listPunk.style.color = "Black"
+        listPunk.style.fontSize = ""
+
     }
 }
 
